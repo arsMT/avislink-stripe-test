@@ -1,4 +1,5 @@
 [build]
+command = "mkdir -p public functions && cp *.html *.js *.svg *.txt public/ && cp stripe-test-*.cjs functions/"
   publish = "public"
   functions = "functions"
 
